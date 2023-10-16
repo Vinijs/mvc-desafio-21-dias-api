@@ -14,6 +14,7 @@ public class AlunosController : Controller
         _logger = logger;
     }
 
+    [Route("/alunos")]
     public IActionResult Index()
     {
         // ViewBag.Aluno = new {
